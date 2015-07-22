@@ -1,0 +1,9 @@
+/* CSS for ToyVerifyXBlock */
+
+.toy_verify_block .count {
+    font-weight: bold;
+}
+
+.toy_verify_block p {
+    cursor: pointer;
+}

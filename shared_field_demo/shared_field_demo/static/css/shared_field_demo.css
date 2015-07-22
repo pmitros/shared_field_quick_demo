@@ -1,0 +1,9 @@
+/* CSS for SharedFieldDemoXBlock */
+
+.shared_field_demo_block .count {
+    font-weight: bold;
+}
+
+.shared_field_demo_block p {
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+<div class="shared_field_demo_block">
+
+user_id: {self.user_id}
+
+<p>SharedFieldDemoXBlock: count is now
+    <span class='count'>{self.count}</span> (click me to increment).
+</p>
+
+<p>SharedFieldDemoXBlock: Query count from user id 2: 
+    <span class='count_query'>{self.shared_num_query_value}</span>.
+</p>
+
+<p>SharedFieldDemoXBlock: Shared count from user id 2: 
+    <span class='count_shared'>{self.shared_num_shared}</span>.
+</p>
+
+<p>
+	<span class='shared_verify_value'>{self.verifed_query_value}</span>.
+</p>
+</div>
