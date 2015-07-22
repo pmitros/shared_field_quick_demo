@@ -9,7 +9,7 @@ from xblock.fragment import Fragment
 
 class ToyVerifyXBlock(XBlock):
     """
-    TO-DO: document what your XBlock does.
+    This is a toy verification XBlock. It checks agreement with an honor code
     """
 
     # Fields are defined on the class.  You can access them in your code as

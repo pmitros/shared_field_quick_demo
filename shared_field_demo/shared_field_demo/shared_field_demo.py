@@ -72,6 +72,10 @@ class SharedFieldDemoXBlock(XBlock):
             user_id = 'student_1', 
             usage_id = 'toyverifyxblock.toy_verify.d0.u0')
 
+        if self.verifed_query_value:
+            self.html_text = "You need to verify before the exam"
+        else:
+            self.html_text = "Wonderful! Here is your exam content"
         html = self.resource_string("static/html/shared_field_demo.html")
         frag = Fragment(html.format(self=self))
         frag.add_css(self.resource_string("static/css/shared_field_demo.css"))

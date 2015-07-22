@@ -2,7 +2,7 @@
 function ToyVerifyXBlock(runtime, element) {
 
     function updateCount(result) {
-        $('.count', element).text(result.count);
+        $('.count', element).text(result.count % 2 == 0);
     }
 
     var handlerUrl = runtime.handlerUrl(element, 'increment_count');
