@@ -1,5 +1,7 @@
 # shared_field_quick_demo
 
+
+*. contained XBlock enables the shared fields
 1. install xblock-sdk (requirements.txt has been changed to point to local XBlock)
 2. install shared_field_demo xblock (pip install -e shared_field_demo)
 3. install toy_verify xblock (pip install -e toy_verify)
